@@ -50,7 +50,7 @@ def limelightPublisher():
             xcenter = (int(M["m10"] / M["m00"]))
             distance = int(xcenter - 125)
              
-            stringVal = String(x, y)
+            stringVal = String(xcenter)
             rospy.loginfo(stringVal)
             pub.publish(stringVal)
 
