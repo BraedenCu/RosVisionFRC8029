@@ -58,11 +58,11 @@ def limelightPublisher():
             #this is run if figure found is less than a defined number of pixels
             #table.putNumber('x', 125)
             
-    # you can display these if you want (uncomment)         
+    # Uncomment the following ONLY if a display is connected (if you want to see the detection output)   
     #cv2.imshow("maskClose",maskClose)
     #cv2.imshow("maskOpen",maskOpen)
     #cv2.imshow("mask",mask)
-    cv2.imshow("cam",frame)
+    #cv2.imshow("cam",frame)
     cv2.waitKey(10)
 
 if __name__ == '__main__':
